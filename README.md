@@ -205,7 +205,7 @@ Engineer 1 ───── N Ticket
 Ticket 1 ─────── N TicketUpdate
 ## Configuration
 
-Create a .env file in the project root.
+The app runs locally with SQLite by default and creates `ticket_management.db` in the project directory. PostgreSQL can be enabled by setting `DATABASE_URL` in a `.env` file.
 
 Example:
 
@@ -231,9 +231,28 @@ Start the FastAPI server:
 
 uvicorn app.main:app --reload
 
-The API will be available at:
+The web app will be available at:
 
 http://127.0.0.1:8000
+
+The home page is a Chinese B2B project coordination dashboard with task ownership, due dates, status updates, risk follow-up, progress, and a generated weekly report. On a fresh local SQLite database, it starts with clearly labeled sample data for an IT service desk rollout. The IT ticket desk is available at `/tickets-ui`; API references remain available at `/docs`, and the health check is `/health`.
+
+### Project coordination API
+
+- `GET /projects/overview` — task progress, overdue, blocked, and due-soon totals
+- `GET /projects/tasks` — project task list (optional `project_name` filter)
+- `POST /projects/tasks` — create a project task
+- `PATCH /projects/tasks/{task_id}` — update task owner, due date, priority, or status
+- `GET /projects/tasks/{task_id}/history` and `GET /projects/activity` — task change history
+- `GET /projects/risks`, `POST /projects/risks`, `PATCH /projects/risks/{risk_id}` — risk register and mitigation status
+
+Task statuses are `TODO`, `IN_PROGRESS`, `BLOCKED`, and `DONE`. Tasks can be marked as milestones and can depend on another task in the same project; dependent work cannot advance before its prerequisite is complete. The demo data is created only for a fresh SQLite database with no project tasks; PostgreSQL databases are not automatically seeded.
+
+### AI-assisted ticket triage prototype
+
+Open `/ai-assistant` to try local keyword-based category and priority suggestions, see matching sample knowledge articles, and submit human feedback. `POST /ai/triage`, `POST /ai/feedback`, and `GET /ai/metrics` support the prototype. It does not call an LLM or a production knowledge base; the feedback counters are usability signals for the demo, not model accuracy metrics.
+
+The first run needs no database setup. To use PostgreSQL instead, set `DATABASE_URL` before starting the server.
 ## API Documentation
 
 FastAPI automatically generates interactive documentation.
@@ -269,6 +288,8 @@ PUT	/tickets/{id}	Update a ticket
 GET	/tickets/{id}/updates	Get ticket history
 
 Tickets can be filtered using query parameters:
+
+`GET /analytics/overview` returns a helpdesk operations snapshot: active backlog, unassigned and high-priority tickets, tickets open longer than 24 hours, and distributions by status and category. The 24-hour aging threshold is a demo default, not a contractual SLA.
 
 /tickets/?status=OPEN
 /tickets/?priority=HIGH
