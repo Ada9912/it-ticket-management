@@ -1,0 +1,282 @@
+﻿ID,问题,原分类,原优先级,待审映射,审核状态,人工最终分类,判断依据
+1ntu94d02,"Persistent Slow Internet Connection on Workstation
+We are experiencing persistent slow internet connection on a specific workstation despite network-wide stability and correct configuration settings. Please assist in diagnosing and resolving this issue.",Network,Medium,Network,待审核,,
+vaurncgoo,"Troubleshooting Slow Internet on Smart TV
+Could you please provide instructions on how to troubleshoot a slow internet connection on my company-issued smart TV?",Network,Medium,Network,待审核,,
+cjt8t5scv,"Hi there! Can I get help with my VPN connection? Thanks!
+Hi there! I'm having trouble establishing a secure VPN connection even though I've followed all the configuration guidelines and used the correct credentials. Can you help me out? Thanks!",Network,Medium,Network,待审核,,
+s2wx7iv3m,"Intermittent File Access Speed Issues on Network Storage
+Hey Team, I'm experiencing persistent issues with our enterprise network storage system. The file access speeds intermittently degrade, and it seems to require a detailed investigation. Could you look into the storage configuration settings and possibly inspect the network infrastructure and hardware components? Thanks, Alex",Network,High,Network,待审核,,
+x293mxkp5,"Alert: Persistent Slow Internet Connection on Workstation - [EMAIL] ([EMAIL])
+Notification from Acme IT Support
+
+Acme IT Support Image
+
+This Persistent Slow Internet Connection alert is to inform you that a specific workstation is experiencing slow internet speeds despite network-wide stability and correct configuration settings.
+
+The alert details include:
+
+Workstation: [EMAIL] ([EMAIL])
+
+Suspected Issue: Hardware or Cable
+
+Date: Tue, Oct 10 2023 14:30 UTC
+
+Physical inspection is recommended to identify potential hardware or cable issues. Please schedule a visit with the IT support team for further assistance.
+
+Go to Support Details
+
+You have received this important update about your Acme network because you are the designated admin recipient for this alert type. You can turn off these alerts or change the email recipients in the Notifications section of the Admin Console.
+
+Acme Co 1234 Elm Street Springfield, IL 62701
+
+-- 
+You received this message because you are subscribed to the Acme IT Support group. To unsubscribe from this group and stop receiving emails from it, send an email to [EMAIL].",Network,Medium,Network,待审核,,
+gkytppr0s,"Wi-Fi Connection Issue on Device
+I'm unable to connect to the corporate Wi-Fi network. It seems to be a device-specific configuration issue. Could you look into this and help adjust the network settings and security protocols?",Network,Medium,Network,待审核,,
+xljo7q748,"Assistance Required for Troubleshooting Persistent Slow Internet Connection on Specific Workstation
+Hi, I'm experiencing persistent slow internet connection on my workstation. Despite having the correct network configuration and a recent router firmware update, the speed remains inconsistent. I suspect there might be an issue with the Network Interface Card that needs a physical inspection. Could you please assist with this? Thank you for your help! -- Alex Johnson | IT Support Specialist Acme Co.",Network,High,Network,待审核,,
+gsxpqf8no,"Access Issue with Internal File Server
+3:15 PM
+
+**John Doe ![:file_folder:](https://slack-imgs.com/?c=1&o1=gu&url=https%3A%2F%2Fa.slack-edge.com%2Fproduction-standard-emoji-assets%2F14.0%2Fapple-large%2F1f4c1.png)**
+
+Hi IT Team, hope you're all doing well! I'm encountering a bit of a snag and was hoping you could assist or point me in the right direction. I'm unable to access a specific internal file server, and I suspect it might be due to a complex Active Directory group policy misconfiguration. It seems like the group policy settings and user permissions might need a detailed investigation and manual adjustment. Could you please help me out with this? I need access to the server to complete a project that's due soon. Thanks a bunch!
+
+3:20 PM
+
+**IT Support ![:computer:](https://slack-imgs.com/?c=1&o1=gu&url=https%3A%2F%2Femoji.slack-edge.com%2FT02T2CNL7%2Fcomputer%2Ff3b8f1a2e3.png)**
+
+Hey John, thanks for reaching out! Sorry to hear about the access issue. We can definitely look into this for you. For us to proceed, could you please provide the exact error message you're receiving when trying to access the server? This will help us pinpoint the problem more efficiently. Let us know if you have any questions!",Network,High,Network,待审核,,
+vl5kq4zjf,"Request for Access to Shared Network Drive
+Hi,
+
+I recently got a new personal desktop computer and need instructions on how to access the shared network drive from it.
+
+Thank you,
+
+Alex",Network,Medium,Network,待审核,,
+fs7blkcux,"Alert: Inconsistent VPN Connectivity - Network Analysis Required
+Notification from Acme Network Services
+
+Acme Network Image
+
+This Inconsistent VPN Connectivity alert is to inform you that a user is experiencing irregular VPN connections that require detailed network analysis and manual configuration adjustments on both client and server sides.
+
+The alert details include:
+
+User: John Doe ([EMAIL])
+
+By: Network Monitoring System ([EMAIL])
+
+Date: Wed, Oct 25 2023 14:22 UTC
+
+Network Analysis is not enabled for this rule. Network Analysis can provide additional details, investigation options, and remediation recommendations. To enable, turn on network analysis in the rule detail page.
+
+Go to Rule Details
+
+You have received this important update about your Acme Network account because you are the designated admin recipient for this alert type. You can turn off these alerts or change the email recipients in the Rules section of the Admin Console.
+
+Acme Corp 1234 Elm Street Springfield, USA
+
+-- 
+You received this message because you are subscribed to the Acme Groups ""Network Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to [EMAIL].",Network,High,Network,待审核,,
+oyzx28mhf,"Troubleshooting VPN Connection: Access Issue with Internal Applications
+User is unable to access specific internal applications despite a successful VPN connection and correct configuration settings.",Network,High,Network,待审核,,
+gwlmpib7p,"Troubleshooting Intranet Access - Assistance Required
+Hey IT Team, I hope you're doing well! I'm reaching out because I'm having trouble accessing specific internal resources on our intranet, even though my permissions and network settings seem to be correct. Could you please help me troubleshoot this issue? Here are a few details that might help: - The specific resources I'm unable to access - Any recent changes to my account or network settings - Any error messages I'm receiving If you need any more information from my side, just let me know. Looking forward to your guidance on this. Thank you for your assistance. Best regards, Alex",Network,Medium,Network,待审核,,
+4wk8t65pm,"Email Notifications for Calendar Events
+Hi IT Team, I need help setting up email notifications for calendar events on my mobile device. Can you provide step-by-step instructions? Thanks!",Software,Medium,Software,待审核,,
+rt1ynhnzn,"API Rate Limit Exceeded in Cloud Application
+Persistent issues with API rate limits being intermittently exceeded in our enterprise cloud-based application, requiring detailed investigation and manual adjustment of API usage patterns.",Software,High,Software,待审核,,
+pdsryhu6p,"Document Access Permissions
+Nathan,\n\nAnother issue. This is with our enterprise cloud-based document management system. The document access permissions are intermittently failing to apply correctly. I've had to manually adjust the permission settings multiple times. It seems like there might be an issue with the user role configurations as well.\n\nAny thoughts?\n\nJohn",Software,High,Software,待审核,,
+wfdz0grf1,"Scheduling Regular Data Backup Reminders
+Please provide detailed instructions on how to schedule regular data backup reminders using the company-approved software. Ensure that the steps are clear and easy to follow. Once completed, please upload any relevant documentation to the IT Shared Drive -> Backup Instructions folder -> '202x - Qx' folder (X being the current year and x being the current quarter).",Software,Medium,Software,待审核,,
+lcpmj7oqa,"Persistent Display Issues with Cloud Application
+Hello IT Team, I'm experiencing persistent issues with our enterprise cloud-based application. Specific user interface elements intermittently fail to display correctly on my high-resolution monitor. This requires me to manually adjust display settings frequently. Could you please investigate this issue and check the application's compatibility with high-DPI scaling? Thanks!",Software,High,Software,待审核,,
+a0x9vhsk2,"Access Request: Adobe Audition Audio Editing Tools
+Notification from Acme IT Services
+
+Acme Workspace Image
+
+This Access Request alert is to inform you that a request has been made for access to Adobe Audition Audio Editing Tools.
+
+The request details include:
+
+Requester: [EMAIL]
+
+By: Service Account ([EMAIL])
+
+Date: Mon, Oct 30 2023 09:15 UTC
+
+Access Center is not enabled for this request. Access Center can provide additional details, investigation options, and approval recommendations. To enable, turn on access requests in the request detail page.
+
+Go to Request Details
+
+You have received this important update about your Acme Workspace account because you are the designated admin recipient for this request type. You can turn off these alerts or change the email recipients in the Requests section of the Admin Console.
+
+Acme Corp 123 Innovation Drive Tech City, TX 75001
+
+-- 
+You received this message because you are subscribed to the Acme Groups ""IT Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to [EMAIL].",Software,Medium,Software,待审核,,
+0tch4xygm,"Cloud Financial Tool Export Issues
+Hi IT,
+
+I'm having trouble with our cloud-based financial reporting tool. The data exports are failing intermittently, and it's becoming a hassle. Could you look into the export configurations and maybe check the data source connectivity and report generation workflows?
+
+--
+
+Jordan Lee | Financial Analyst
+
+Acme Co. • New York, NY",Software,High,Software,待审核,,
+1owy9njm6,"ERP System Inventory Level Discrepancies
+Hi IT,
+
+I've been encountering persistent issues with our ERP system where the inventory levels are inaccurately reflected. This requires a detailed investigation and manual adjustment of the inventory tracking settings. Additionally, there might be a need to reconcile data discrepancies across multiple modules.
+
+I receive the message ""Data Mismatch Detected"" when attempting to update the inventory.
+
+--
+Alex Johnson
+Operations Coordinator - Inventory Management (https://acme.co/wiki/inventory-management)
+Acme Co (http://acme.co)
+Schedule a 30 Minute Meeting with me (https://acme.co/alexjohnson/30-minute-meeting)",Software,High,Software,待审核,,
+4vkoef9yf,"Optimizing Display Settings for Multiple Monitors
+Hello,
+
+I recently set up multiple monitors on my workstation and would like to optimize the display settings for better productivity. Could you please provide instructions or guidance on how to adjust the settings effectively?
+
+I have a busy schedule this week and would appreciate any help you can offer at your earliest convenience.
+
+Thank you for your assistance,
+John",Software,Medium,Software,待审核,,
+c5ak82f61,"Fwd: Google Calendar Time Zone Issue
+Assistance Required for Troubleshooting Google Calendar Not Displaying Correct Time Zone Settings Despite Correct Configuration in User Account Preferences",Software,Medium,Software,待审核,,
+y655s5pjx,"Fwd: Notification Trigger Issue
+Hello IT Support,
+
+I've been experiencing persistent issues with our enterprise cloud-based application where specific user notifications intermittently fail to trigger. I suspect there might be complex event handling errors involved. Could you please investigate this and manually adjust the notification configurations? Additionally, an inspection of the server-side event processing workflows might be necessary.
+
+Thank you!
+Alex
+
+
+
+---------- Forwarded message ---------
+From: Jamie Smith <[EMAIL]>
+Date: Mon, Oct 16, 2023 at 9:15 AM
+Subject: Notification Trigger Issue
+To: Alex Johnson <[EMAIL]>
+Cc: Taylor Brown <[EMAIL]>, Jordan Lee <[EMAIL]>
+
+
+Hi Alex,
+
+
+I noticed that some notifications aren't being sent as expected. This has been happening intermittently and seems to be related to event handling. Could you look into this?
+
+
+
+Jamie Smith
+Product Management
+Acme Co.
+555.123.4567
+""Innovate, Integrate, Motivate""",Software,High,Software,待审核,,
+qt28t6s42,"Persistent Issues with Cloud Data Integration Platform
+Intermittent failure of real-time data streams processing.",Software,High,Software,待审核,,
+hwvaglmtw,"Password Reset Assistance Needed: Two-Factor Authentication Device Malfunction
+Password reset assistance request",Account,High,Access,待审核,,
+gjwfn4fv0,"Access Request for ZD Help Center Admin Tools
+Dear IT Support Team: An access request for the ZD Help Center Admin Tools has been submitted. Account Name: Acme Co. Tool Name: ZD Help Center Admin Tools Description: Access required for managing support content and user permissions. Requester Full Name: John Doe Request Number: 00004567.0 Status Category: Pending Approval Status: Awaiting IT Review Access Start Date: 11/1/2023 Access End Date: 11/1/2024 Total Access Value: N/A Click on the link below to access the request: ZD Help Center Admin Tools Access (https://acme.co/access-request/00004567) Request ID: a5N2M000000nr7V Request User ID: 0052M000009PiHD Request Status: Notified Request Date: 10/25/2023 10:15 AM Request Assigned To: IT Support Request Comments: (Access Level = Admin) Request Approver Comments: Notified - System Info - Notified User: IT Support 2023-10-25 10:15:45-0500 Approvals: | Step Name | Approval Status | Date | Assigned To | Depends On | Actual Approver | Approver Comments | | IT Review | Approved | 10/25/2023 10:14 AM | John Doe | | John Doe | Approved with comments - John Doe Approver comments - Access required for new project initiatives and content management 2023-10-25 10:14:30-0500 | | IT Review | Approved | 10/25/2023 10:15 AM | Security Approval | | John Doe | Approved - John Doe 2023-10-25 10:15:44-0500 | | IT Review | Not Submitted | | Compliance Approval | | | | | IT Review | Not Submitted | | Manager Approval | | | | | IT Review | Not Submitted | | Final Approval | | | |",Account,Medium,Access,待审核,,
+cy93jemet,"DBox Business Account Access
+Hi Team, I'm unable to access my DBox Business Account. Could you please help me resolve this issue? -- Alex Johnson | Project Manager Acme Co (https://acme.co/) • Connect with me (https://acme.co/alex-johnson)",Account,Medium,Access,待审核,,
+idj5hl4zv,"Access Request for GMail & GDrive Services
+Access to GMail & GDrive services granted.",Account,Medium,Access,待审核,,
+u43q44ro8,"Assistance Needed: Password Reset for Email Account
+I am unable to access my email account as I have forgotten the password. Could you please assist me in resetting it?",Account,Medium,Access,待审核,,
+arcs97jp6,"Assistance Required for Configuring New Hire's Access to Secure Internal Portal
+Dear IT Support Team: Assistance Required for Configuring New Hire's Access to Secure Internal Portal: User Unable to Authenticate Despite Correct Credentials and Following ""New Hire 101 FAQ"" Guidelines. Account Name: John Doe User ID: JDoe123 Description: New hire access configuration Owner Full Name: Jane Smith Status Category: Access Issue Status: Pending Resolution Access Request Date: 10/15/2023 9:00 AM Total Access Value: N/A Click on the link below to access the Portal: Secure Internal Portal (https://acme.co/secure-portal) Access Request ID: a5N8X0000005xyz Access User ID: 0052M000009PiXY Access Request Status: Notified Access Request Date: 10/15/2023 9:00 AM Access Request Assigned To: IT Support Access Request Comments: (User Type = Employee) Access Request Approver Comments: Notified - System Info - Notified User: IT Support 2023-10-15 09:00:00-0400 Access Approvals: | Step Name | Approval Status | Date | Assigned To | Depends On | Actual Approver | Approver Comments | | IT Review | Pending | 10/15/2023 9:00 AM | Jane Smith | | Jane Smith | Pending - Jane Smith 2023-10-15 09:00:00-0400 | | IT Review | Not Submitted | | Security | | | | | IT Review | Not Submitted | | IT Support | | | | Reassigned - John Doe Info - Reassigned to Jane Smith 2023-10-15 08:55:00-0400 |",Account,High,Access,待审核,,
+8mvbaeqv9,"Access Request for SF Lightning Platform
+Hello IT, I need access to the SF Lightning Platform for a new team member. They have completed all necessary onboarding procedures. Can access credentials be provided to: Alex Johnson [EMAIL] Thanks, Jamie Jamie Lee Operations Manager | Acme Co Phone: (555) 123-4567 Email: [EMAIL] Calendar: https://acme.co/jamie-lee",Account,Medium,Access,待审核,,
+yyw9bykny,"Access Request for DBox Business Account Integration
+Access request details.",Account,Medium,Access,待审核,,
+cythbyl5p,"Access Request: DB Storage Folder - [EMAIL]
+Notification from Acme IT
+
+Acme IT Image
+
+This Access Request alert is to inform you that a request for access to the DB storage folder has been submitted.
+
+The request details include:
+
+Requester: [EMAIL] ([EMAIL])
+
+By: Service Account ([EMAIL])
+
+Date: Mon, Oct 16 2023 14:32 UTC
+
+Access Center is not enabled for this request. Access Center can provide additional details, investigation options, and approval recommendations. To enable, turn on access requests in the request detail page.
+
+Go to Request Details
+
+You have received this important update about your Acme IT account because you are the designated admin recipient for this request type. You can turn off these alerts or change the email recipients in the Requests section of the Admin Console.
+
+Acme LLC 123 Innovation Drive Tech City, TX 75001
+
+-- 
+You received this message because you are subscribed to the Acme Groups ""IT Support"" group. To unsubscribe from this group and stop receiving emails from it, send an email to [EMAIL].",Account,Medium,Access,待审核,,
+hi50xah0r,"Access Request for SF Platform
+Hi, I need to request access to the SF Platform. Thanks, Alex Johnson",Account,Medium,Access,待审核,,
+e1eyevqyf,"can you help?
+Hi team, I noticed the T-Card Task Board is restricted. I am hoping you can help me. I need access to manage my tasks efficiently. Is there anything IT can do to grant me access to the T-Card Task Board please? I am hoping the business can accommodate this request to help me do my job better. Thank you -- Alex Johnson Project Management Book time with me (https://acme.co/alex-johnson/intro-call) 123-456-7890 Acme (https://acme.co/) Linkedin (https://www.linkedin.com/in/alex-johnson/)",Account,Medium,Access,待审核,,
+bbdl37pcd,"ZD Support Portal Access
+Hi, I need to get access to the ZD Support Portal to manage support tickets and update customer queries efficiently. Thanks! Alex",Account,Medium,Access,待审核,,
+udja0h052,"Alex Johnson - Multi-Monitor Setup Assistance
+Attention Acme IT,
+
+A user has reported an issue with their multi-monitor setup. Despite correct connection and power settings, one of the monitors is not displaying. This may be due to a hardware or cable issue that requires physical inspection. Please review the details below and take the necessary action to resolve the issue.
+
+User: Alex Johnson
+Workstation ID: 5a7b9cde1234567890abcdef
+Reported Issue: One monitor not displaying
+Connection Type: HDMI
+Power Status: Confirmed ON
+
+---------------------------------------------------------------
+This email was generated from Acme IT Support System on behalf of Acme Co.
+Please DO NOT REPLY to this email.",Hardware,Medium,Hardware,待审核,,
+eso0z3lxy,"Hardware Token Malfunction - MFA Assistance Needed
+Hi,
+
+I'm having trouble with my multi-factor authentication. My hardware token seems to be malfunctioning, and I'm unable to authenticate. Could I get a replacement token? This is quite urgent as I need access to my accounts.
+
+Thanks
+
+Alex",Hardware,Urgent,Hardware,待审核,,
+7g0box9fq,"Default Printer Setup Instructions
+Hi, Could you please provide instructions on setting up a default printer on my company-issued laptop? Copying my manager to this email. Thanks, Alex Johnson",Hardware,Medium,Hardware,待审核,,
+1pi74dk25,"Multi-Monitor Display Configuration Issue
+I am experiencing issues with my multi-monitor setup. The monitors are displaying incorrect resolution and orientation, even though I followed the connection guidelines. Could you assist with troubleshooting this?",Hardware,Medium,Hardware,待审核,,
+f48mriuds,"Instructions for Troubleshooting Multi-Monitor Display Issues
+Guidance needed on resolving display problems when connecting multiple monitors to a workstation.",Hardware,Medium,Hardware,待审核,,
+lsi4237i5,"Hello, can you help me connect a third monitor?
+Hello, can you help me connect a third monitor to my dual-monitor setup?",Hardware,Medium,Hardware,待审核,,
+krq1du6ad,"Setting Up New Office Printer on Company Laptop
+Hi IT Team, I'm in the process of setting up a new office printer on my company-issued laptop and could use some guidance. Could you provide step-by-step instructions or direct me to a resource that outlines the process? I'm aiming to have this set up by the end of the week, as I need to print several documents for an upcoming meeting. If there are any specific drivers or software I need to install, please let me know. Thank you for your assistance!",Hardware,Medium,Hardware,待审核,,
+oc7sca1s0,"Digital Signage System Fails to Update Content
+Hi there,
+
+I'm having trouble with our digital signage system. The content isn't updating as it should, and I'm not sure if it's a settings issue or something else. I've tried reconfiguring the content management settings manually, but the problem persists. Could it be a network or hardware issue? Any help would be appreciated. Thanks!",Hardware,High,Hardware,待审核,,
+8kd33acyo,"Anyone else dealing with paper jams in the office printer?
+Anyone else dealing with paper jams in the office printer? I've tried the usual fixes like checking for stuck paper and ensuring the tray is aligned, but it keeps happening. Is there a standard procedure or guide we should be following?",Hardware,Medium,Hardware,待审核,,
+rhxsdvazi,"Dual Monitor Display Issue
+I'm experiencing persistent issues with my dual monitor setup where one monitor intermittently fails to display content. This requires detailed investigation and manual adjustment of display settings, cable connections, and potential hardware inspection.",Hardware,Medium,Hardware,待审核,,
+6ihvgi282,"Instructions for Resolving Printer Error Messages
+Hey IT! I'm running into some common error messages when trying to print from the office printer. Could you provide some step-by-step instructions on how to resolve these issues? I tried looking it up but got a bit lost. Any help would be appreciated! Thanks a bunch! Alex Johnson | Office Coordinator Administration • New York, NY",Hardware,Medium,Hardware,待审核,,
+i3uryj6ob,"Project: Troubleshooting Office Printer for Double-Sided Printing
+Creating this project request to address the issue of users being unable to print double-sided documents despite having the correct printer settings and driver installation. This will ensure seamless printing operations within the office.",Hardware,Medium,Hardware,待审核,,
+2evw3m55s,"Workstation Security Alert: Software Conflict
+Hi IT, I'm experiencing an issue with applying security configuration changes on my workstation. Despite following the ""Securing Your Workstation"" guidelines, I suspect there's a software conflict preventing the changes. Could you assist in investigating and resolving this? Thanks in advance, Alex Johnson",Security,High,范围外,待审核,,
+4x018oilv,"Workstation Security Alert: Full Disk Encryption Issue
+Assistance required for investigating and resolving workstation security alert. User reports inability to enable full disk encryption despite following ""Securing Your Workstation"" guidelines. Please refer to the following ticket for more details: https://acme.co/support/tickets/12345",Security,High,范围外,待审核,,

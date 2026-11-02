@@ -1,0 +1,54 @@
+{
+  "sample_size": 32,
+  "sampling": "seed=20261101; up to 5 unique texts per original category; EOL has only 2 unique texts in selected source split; total 32",
+  "taxonomy": "Original seven queues; NOT application five categories",
+  "baseline_correct": 12,
+  "deepseek_correct": 18,
+  "api_failures": 8,
+  "model": "deepseek-flash",
+  "per_class": {
+    "Active Directory": {
+      "n": 5,
+      "baseline_correct": 1,
+      "deepseek_correct": 2
+    },
+    "Computer-Services": {
+      "n": 5,
+      "baseline_correct": 0,
+      "deepseek_correct": 3
+    },
+    "EOL": {
+      "n": 2,
+      "baseline_correct": 2,
+      "deepseek_correct": 2
+    },
+    "Fileservice": {
+      "n": 5,
+      "baseline_correct": 5,
+      "deepseek_correct": 5
+    },
+    "O365": {
+      "n": 5,
+      "baseline_correct": 0,
+      "deepseek_correct": 3
+    },
+    "Software": {
+      "n": 5,
+      "baseline_correct": 1,
+      "deepseek_correct": 3
+    },
+    "Support general": {
+      "n": 5,
+      "baseline_correct": 3,
+      "deepseek_correct": 0
+    }
+  },
+  "source": "https://zenodo.org/records/7648117",
+  "limitations": [
+    "Exploratory balanced small sample; no prompt tuning against this sample",
+    "Multilingual historical data; not Chinese production traffic",
+    "Public data may have been in model training; contamination unknown",
+    "Queue routing labels can differ from semantic issue categories",
+    "Baseline uses English keywords; unequal multilingual capability"
+  ]
+}

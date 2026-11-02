@@ -7,3 +7,10 @@ __pycache__/
 htmlcov/
 .vscode/
 data/output/
+*.db
+*.db-shm
+*.db-wal
+
+# Downloaded evaluation datasets retained locally
+data/evaluation/*.csv
+data/console_ai/tickets.csv

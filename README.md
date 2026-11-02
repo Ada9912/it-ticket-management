@@ -90,6 +90,8 @@ ticket-management-system/
 │   │   ├── sources.py
 │   │   ├── spark_transform.py
 │   │   └── transform.py
+│   ├── tools/
+│   │   └── import_project.py
 │   ├── repositories/
 │   │   ├── employee_repository.py
 │   │   ├── engineer_repository.py
@@ -119,6 +121,8 @@ ticket-management-system/
 ├── pytest.ini
 ├── requirements.txt
 └── README.md
+```
+
 ## Architecture
 Backend Architecture
 Client
@@ -247,6 +251,19 @@ The home page is a Chinese B2B project coordination dashboard with task ownershi
 - `GET /projects/risks`, `POST /projects/risks`, `PATCH /projects/risks/{risk_id}` — risk register and mitigation status
 
 Task statuses are `TODO`, `IN_PROGRESS`, `BLOCKED`, and `DONE`. Tasks can be marked as milestones and can depend on another task in the same project; dependent work cannot advance before its prerequisite is complete. The demo data is created only for a fresh SQLite database with no project tasks; PostgreSQL databases are not automatically seeded.
+
+### Importing a real project's division of work
+
+To replace the demo data with a real project, import a JSON file with `app/tools/import_project.py`:
+
+```bash
+python -m app.tools.import_project data/input/my_project.json --dry-run
+python -m app.tools.import_project data/input/my_project.json --replace --purge-demo
+```
+
+The import validates the file before writing: unique task titles, a required owner for every task and risk, `YYYY-MM-DD` dates, dependencies that exist and contain no cycles, and no task advanced past an unfinished prerequisite. `--purge-demo` removes seeded demo rows (project names containing `演示`), `--replace` overwrites existing rows for the same project name, and `--dry-run` validates and prints statistics without touching the database.
+
+Dependencies are resolved by task title, so titles must be unique. The file format is documented in `data/input/my_project.example.json`. The command prints the resulting counts (tasks by status, completion rate, milestones, dependency edges, risk distribution); those numbers come from the imported data, not from the demo seed.
 
 ### AI-assisted ticket triage prototype
 
@@ -502,9 +519,7 @@ Pull Request
    v
 Merge
 
-Current development branch:
-
-feature/complete-ticket-management
+This distributed folder has no Git metadata; the current branch cannot be verified.
 ## Security and Configuration
 
 Database credentials are stored in .env and excluded from source control.
@@ -520,3 +535,14 @@ __pycache__
 .pytest_cache
 .coverage
 data/output
+
+## 文件整理与本地验证
+
+- `app/`：API、页面、业务逻辑和数据管道。
+- `tests/`：自动化测试；默认使用隔离内存数据库。
+- `data/input/`：管道输入示例和项目导入模板，保留。
+- `sql/`：PostgreSQL 建表与查询参考，保留。
+- `ticket_management.db`：已有本地数据，保留；不要提交或打包到镜像。
+- 删除重复的 `app/static/index.html`，页面入口仍由 `app/main.py` 提供。
+- PostgreSQL 管道集成测试需要 `PIPELINE_TEST_DATABASE_URL`；Spark 测试需要 PySpark 和 Java。
+- Docker 默认执行数据管道；启动 Web 应用需覆盖命令：`docker run --rm -p 8000:8000 ticket-management-pipeline uvicorn app.main:app --host 0.0.0.0 --port 8000`。

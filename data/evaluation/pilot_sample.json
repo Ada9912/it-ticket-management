@@ -1,0 +1,162 @@
+[
+  {
+    "id": "5984",
+    "category_truth": "Active Directory",
+    "text": "Cancelamento Usuário e Acessos [NAME]Por gentileza cancelar o usuário da [NAME] e criar o aliás no e-mail para [NAME] (segue anexo autorização).  Obrigada!"
+  },
+  {
+    "id": "1442",
+    "category_truth": "Active Directory",
+    "text": "new computer"
+  },
+  {
+    "id": "6336",
+    "category_truth": "Active Directory",
+    "text": "Basis User - [TICKET ID] - [NAME] ([COMPANY] [LOCATION])Service Request: Basis User     Create Windows account for internal user  [NAME] ([COMPANY] [LOCATION])     Firstname:  [NAME]  Lastname:  [NAME]  Cost Center:  44251  Company:  [COMPANY] Inc.  Department:  [COMPANY]OP  Street:  [ADDRESS]  ZIP:  [ADDRESS]  City:  [ADDRESS]  Country:  [ADDRESS]  Office:       Important: Please set the EA10 to the following value: 13401 (leave blank. when empty)  Please create Exchange and Skype account.  The user needs at least the following access permissions:  Access to [SOFTWARE] ([SERVER])  Requestor:  [NAME] ([COMPANY]. [LOCATION])     Desired date:  Sep 25 2018  7:00AM     Additional information:   Please set primary email to be [EMAIL]"
+  },
+  {
+    "id": "11410",
+    "category_truth": "Active Directory",
+    "text": "Leaving Employee - [TICKET ID] - [NAME] (AMA. [LOCATION])Service Request: Leaving Employee     The user [NAME] (AMA. [LOCATION]) (Username: [USERNAME]) is going to leave [COMPANY] on Aug  9 2018 12:00AM.     The following IT services have to be canceled:  - Delete Windows account (Active Directory)  - Delete E-Mail account (Exchange)  - Return Hardware  - Return mobile device  - Delete[NAME]account  - Disable[LOCATION]access  - Disable Citrix access  - Disable file access  - Withdraw Adobe licenses     Requestor: Kleineheinrich. Constanze (AMA. [LOCATION])  Leaving date: Aug  9 2018 12:00AM  Comment:"
+  },
+  {
+    "id": "8406",
+    "category_truth": "Active Directory",
+    "text": "Basis User - [TICKET ID] - [NAME] ([COMPANY]. [LOCATION])Service Request: Basis User     Create Windows account for internal user  [USERNAME] [NAME] ([COMPANY]. [LOCATION])     Firstname:  [NAME]  Lastname:  [NAME]  Cost Center:  174440  Company:  [COMPANY] [ADDRESS] GmbH  Department:  [ADDRESS]  ZIP:  [ADDRESS]  City:  [ADDRESS]  Country:  Germany  Office:       Important: Please set the EA10 to the following value: 13306 (leave blank. when empty)  Please create Exchange and Skype account.  The user needs at least the following access permissions:  (RW) H:/%username%  (RO) J:/Auftrag  (RW) J:/Info  (RW) J:/Transfer  (RO) J:/Vorlagen  Access to [COMPANY] intranet  Access to [SOFTWARE] ([SERVER])  Requestor:  [NAME] ([COMPANY]. [LOCATION])     Desired date:  Sep  3 2018 12:00AM     Additional information:"
+  },
+  {
+    "id": "994",
+    "category_truth": "Computer-Services",
+    "text": "[TICKET ID] - New Support Ticket received  - Imprersora Brother remolacha 01_ arroja error . en visor dice sustitui piezas y abajo dive tambor"
+  },
+  {
+    "id": "845",
+    "category_truth": "Computer-Services",
+    "text": "[TICKET ID] - New Support Ticket received  - unlock my personal external[LOCATION]drive"
+  },
+  {
+    "id": "1232",
+    "category_truth": "Computer-Services",
+    "text": "[TICKET ID] - New Support Ticket received  - instalacion de impresora parral"
+  },
+  {
+    "id": "882",
+    "category_truth": "Computer-Services",
+    "text": "[TICKET ID] - New Support Ticket received  - Malfunction [SERVER]"
+  },
+  {
+    "id": "1295",
+    "category_truth": "Computer-Services",
+    "text": "[TICKET ID] - New Support Ticket received  - actualizar controlador de impresora"
+  },
+  {
+    "id": "13750",
+    "category_truth": "EOL",
+    "text": "The following system must be set to End Of Life in Nexthink and checked for[LOCATION]reservations:  [SERVER]  -Automated ticket creation-Please remove the system from Nexthink according to the[LOCATION]process and please verify if any[LOCATION]reservations exist. If yes. please remove reservations and note down the corresponding IP(s) and inform [COMPANY] network team to remove firewall rules if there are any."
+  },
+  {
+    "id": "4280",
+    "category_truth": "EOL",
+    "text": "The following system must be set to End Of Life in Nexthink:  [SERVER]  -Automated ticket creation-The following system must be set to End Of Life in Nexthink:  [SERVER]"
+  },
+  {
+    "id": "7507",
+    "category_truth": "Fileservice",
+    "text": "File Share Access - [TICKET ID] - [NAME] ([COMPANY]. [LOCATION])Service Request: File Share Access     Grant access to file share for the following user:  [NAME] ([COMPANY]. [LOCATION]) (Username: [USERNAME])  Access Type: (RW) Read / Write  File Share:  J:/scan/canon/ningel     Requestor: [NAME] ([COMPANY]. [LOCATION])  Comment:"
+  },
+  {
+    "id": "3375",
+    "category_truth": "Fileservice",
+    "text": "File Share Access - [TICKET ID] - Hass Neto. Carlos ([COMPANY]. [LOCATION])Service Request: File Share Access     Grant access to file share for the following user:  Hass Neto. Carlos ([COMPANY]. [LOCATION]) (Username: [USERNAME])  Access Type: (RW) Read / Write  File Share:      N:/[SERVER]/STA-PGRO        R/W including all subfolders.         Requestor: [NAME] ([COMPANY]. [LOCATION])  Comment:"
+  },
+  {
+    "id": "9735",
+    "category_truth": "Fileservice",
+    "text": "File Share Access - [TICKET ID] - [NAME]. [NAME] ([COMPANY]. BRCL)Service Request: File Share Access     Grant access to file share for the following user:  [NAME]. [NAME] ([COMPANY]. BRCL) (Username: [USERNAME])  Access Type: (RW) Read / Write  File Share:      N:/[SERVER]/STA-CAM        R/W including all subfolders.         Requestor: [NAME] ([COMPANY]. [LOCATION])  Comment:"
+  },
+  {
+    "id": "912",
+    "category_truth": "Fileservice",
+    "text": "File Share Access - [TICKET ID] - [NAME] ([COMPANY]. [LOCATION])Service Request: File Share Access     Grant access to file share for the following user:  [NAME] ([COMPANY]. [LOCATION]) (Username: )  Access Type: (RW) Read / Write  File Share:  j:/ins-dv     Requestor: [NAME] ([COMPANY]. [LOCATION])  Comment:"
+  },
+  {
+    "id": "5757",
+    "category_truth": "Fileservice",
+    "text": "File Share Access - [TICKET ID] - [NAME] ([COMPANY]. [LOCATION])Service Request: File Share Access     Grant access to file share for the following user:  [NAME] ([COMPANY]. [LOCATION]) (Username: )  Access Type: (RW) Read / Write  File Share:  J:/Scan     Requestor: [NAME] ([COMPANY]. [LOCATION])  Comment:  Liebes [COMPANY]-Team.  [NAME] [NAME] wird als Lead Business Partner Legal EMEA/APAC bei der [COMPANY] Berlin GmbH anfangen. Da sein Arbeitsplatz in [ADDRESS] sein wird. konfigurieren Sie bitte das Notebook für den Standort Berlin [LOCATION].  Für Rückfragen stehe ich gern zur Verfügung.  Beste Grüße [NAME] Tel.: [PHONE]"
+  },
+  {
+    "id": "2870",
+    "category_truth": "O365",
+    "text": "No funciona SkypeNo puedo acceder a Skype"
+  },
+  {
+    "id": "8278",
+    "category_truth": "O365",
+    "text": "Adding a name to the Shakopee Employees Distribution List.Please add [NAME] to the Shakopee Employees Distribution List."
+  },
+  {
+    "id": "539",
+    "category_truth": "O365",
+    "text": "[TICKET ID] - A Support Ticket was forwarded to your role  - Email Benachrichtigung nach Kalenderbuchung"
+  },
+  {
+    "id": "1386",
+    "category_truth": "O365",
+    "text": "[TICKET ID] - New Support Ticket received  - Conexion a Skype"
+  },
+  {
+    "id": "594",
+    "category_truth": "O365",
+    "text": "[TICKET ID] - A Support Ticket was forwarded to your role  - Remove attachements from E-Mails from external"
+  },
+  {
+    "id": "908",
+    "category_truth": "Software",
+    "text": "[TICKET ID] - New Support Ticket received  -  [NAME] ao acessar o Neoagro"
+  },
+  {
+    "id": "1184",
+    "category_truth": "Software",
+    "text": "[TICKET ID] - New Support Ticket received  - Update Rstudio"
+  },
+  {
+    "id": "1307",
+    "category_truth": "Software",
+    "text": "[TICKET ID] - A Support Ticket was forwarded to you  - okta mobile"
+  },
+  {
+    "id": "982",
+    "category_truth": "Software",
+    "text": "[TICKET ID] - New Support Ticket received  - Instalaçao d e programa"
+  },
+  {
+    "id": "861",
+    "category_truth": "Software",
+    "text": "[TICKET ID] - A Support Ticket was forwarded to your role  - no tengo outlook"
+  },
+  {
+    "id": "643",
+    "category_truth": "Support general",
+    "text": "[TICKET ID] - A Support Ticket was forwarded to your role  - create[LOCATION]entry [COMPANY].ads.dir       A      [IP_ADDRESS]"
+  },
+  {
+    "id": "697",
+    "category_truth": "Support general",
+    "text": "[TICKET ID] - A Support Ticket was forwarded to your role  - Additional Application[LOCATION]Service - [TICKET ID] - [NAME] ([COMPANY]. [LOCATION])"
+  },
+  {
+    "id": "1061",
+    "category_truth": "Support general",
+    "text": "[TICKET ID] - New Support Ticket received  - Telefone está mudo"
+  },
+  {
+    "id": "936",
+    "category_truth": "Support general",
+    "text": "[TICKET ID] - New Support Ticket received  - Can not delete a file in Access so I can update inventory"
+  },
+  {
+    "id": "740",
+    "category_truth": "Support general",
+    "text": "[TICKET ID] - This Support Ticket was reopened  - Light User for external - [TICKET ID] - [NAME]"
+  }
+]

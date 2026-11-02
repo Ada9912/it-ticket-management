@@ -10,3 +10,5 @@ pytest-cov
 pandas
 pyarrow
 pyspark==4.2.0
+
+httpx

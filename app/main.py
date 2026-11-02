@@ -32,6 +32,13 @@ Base.metadata.create_all(bind=engine)
 
 def ensure_local_schema_compatibility():
     """Add fields introduced after the first SQLite demo database was created."""
+    feedback_columns = {column["name"] for column in inspect(engine).get_columns("ai_triage_feedback")}
+    if "final_category" not in feedback_columns:
+        with engine.begin() as connection:
+            connection.execute(text("ALTER TABLE ai_triage_feedback ADD COLUMN final_category VARCHAR(50)"))
+    if "suggestion_source" not in feedback_columns:
+        with engine.begin() as connection:
+            connection.execute(text("ALTER TABLE ai_triage_feedback ADD COLUMN suggestion_source VARCHAR(20)"))
     columns = {column["name"] for column in inspect(engine).get_columns("project_tasks")}
     with engine.begin() as connection:
         if "depends_on_task_id" not in columns:

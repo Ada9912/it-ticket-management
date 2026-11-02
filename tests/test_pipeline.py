@@ -5,17 +5,7 @@ import os
 import sys
 from app.pipeline.runner import PipelineConfig, run_pipeline
 from app.pipeline.sources import read_file, read_sql_table
-from pyspark.sql.types import LongType, StringType, StructField, StructType
-
-from app.pipeline.spark_transform import (
-    add_employee_case_rank,
-    aggregate_cases_by_priority,
-    deduplicate_cases as spark_deduplicate_cases,
-    filter_open_cases,
-    handle_nulls,
-    join_cases_with_employees,
-)
-from pyspark.sql import SparkSession
+import pytest
 
 from app.pipeline.transform import (
     add_priority_rank,
@@ -65,7 +55,9 @@ def test_json_and_parquet_sources_are_supported(tmp_path):
     assert read_file(parquet_path).to_dict(orient="records") == [{"id": 2}]
 
 def test_sql_table_source_is_supported():
-    database_url = "postgresql://postgres:postgres@localhost:5432/ticket_management"
+    database_url = os.getenv("PIPELINE_TEST_DATABASE_URL")
+    if not database_url:
+        pytest.skip("Set PIPELINE_TEST_DATABASE_URL for PostgreSQL integration testing")
 
     frame = read_sql_table(database_url, "tickets")
 
@@ -94,6 +86,19 @@ def test_pandas_transformations():
     assert len(deduplicated) == 2
 
 def test_pyspark_transformations():
+    pytest.importorskip("pyspark")
+    from pyspark.sql.types import LongType, StringType, StructField, StructType
+
+    from app.pipeline.spark_transform import (
+        add_employee_case_rank,
+        aggregate_cases_by_priority,
+        deduplicate_cases as spark_deduplicate_cases,
+        filter_open_cases,
+        handle_nulls,
+        join_cases_with_employees,
+    )
+    from pyspark.sql import SparkSession
+
     os.environ["PYSPARK_PYTHON"] = sys.executable
     os.environ["PYSPARK_DRIVER_PYTHON"] = sys.executable
     spark = (

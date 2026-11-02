@@ -1,0 +1,402 @@
+[
+  {
+    "id": "1ntu94d02",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.396
+  },
+  {
+    "id": "vaurncgoo",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.371
+  },
+  {
+    "id": "cjt8t5scv",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.283
+  },
+  {
+    "id": "s2wx7iv3m",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.281
+  },
+  {
+    "id": "x293mxkp5",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.035
+  },
+  {
+    "id": "gkytppr0s",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.053
+  },
+  {
+    "id": "xljo7q748",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.124
+  },
+  {
+    "id": "gsxpqf8no",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.146
+  },
+  {
+    "id": "vl5kq4zjf",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.285
+  },
+  {
+    "id": "fs7blkcux",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.251
+  },
+  {
+    "id": "oyzx28mhf",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.268
+  },
+  {
+    "id": "gwlmpib7p",
+    "source_category": "Network",
+    "proposed_category": "Network",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.246
+  },
+  {
+    "id": "4wk8t65pm",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.332
+  },
+  {
+    "id": "rt1ynhnzn",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.33
+  },
+  {
+    "id": "pdsryhu6p",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.483
+  },
+  {
+    "id": "wfdz0grf1",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.47
+  },
+  {
+    "id": "lcpmj7oqa",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.391
+  },
+  {
+    "id": "a0x9vhsk2",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.367
+  },
+  {
+    "id": "0tch4xygm",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.394
+  },
+  {
+    "id": "1owy9njm6",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.412
+  },
+  {
+    "id": "4vkoef9yf",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.471
+  },
+  {
+    "id": "c5ak82f61",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.464
+  },
+  {
+    "id": "y655s5pjx",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.427
+  },
+  {
+    "id": "qt28t6s42",
+    "source_category": "Software",
+    "proposed_category": "Software",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.438
+  },
+  {
+    "id": "hwvaglmtw",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.42
+  },
+  {
+    "id": "gjwfn4fv0",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.401
+  },
+  {
+    "id": "cy93jemet",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.492
+  },
+  {
+    "id": "idj5hl4zv",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.467
+  },
+  {
+    "id": "u43q44ro8",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.397
+  },
+  {
+    "id": "arcs97jp6",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.402
+  },
+  {
+    "id": "8mvbaeqv9",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.52
+  },
+  {
+    "id": "yyw9bykny",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.523
+  },
+  {
+    "id": "cythbyl5p",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.431
+  },
+  {
+    "id": "hi50xah0r",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.43
+  },
+  {
+    "id": "e1eyevqyf",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.406
+  },
+  {
+    "id": "bbdl37pcd",
+    "source_category": "Account",
+    "proposed_category": "Access",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.413
+  },
+  {
+    "id": "udja0h052",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.557
+  },
+  {
+    "id": "eso0z3lxy",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.564
+  },
+  {
+    "id": "7g0box9fq",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.066
+  },
+  {
+    "id": "1pi74dk25",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.058
+  },
+  {
+    "id": "f48mriuds",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.113
+  },
+  {
+    "id": "lsi4237i5",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.102
+  },
+  {
+    "id": "krq1du6ad",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.04
+  },
+  {
+    "id": "oc7sca1s0",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.04
+  },
+  {
+    "id": "8kd33acyo",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.011
+  },
+  {
+    "id": "rhxsdvazi",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.047
+  },
+  {
+    "id": "6ihvgi282",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.019
+  },
+  {
+    "id": "i3uryj6ob",
+    "source_category": "Hardware",
+    "proposed_category": "Hardware",
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.014
+  },
+  {
+    "id": "2evw3m55s",
+    "source_category": "Security",
+    "proposed_category": null,
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.051
+  },
+  {
+    "id": "4x018oilv",
+    "source_category": "Security",
+    "proposed_category": null,
+    "review_status": "PENDING",
+    "error_type": "HTTPStatusError",
+    "seconds": 6.051
+  }
+]

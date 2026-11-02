@@ -1,0 +1,47 @@
+{
+  "_说明": "把下面每一项换成你真实项目里的真实内容，然后运行 python -m app.tools.import_project data/input/my_project.json --dry-run 先校验。任务标题必须唯一（依赖按标题定位）。depends_on 填前置任务的标题，没有就写 null。due_date 用 YYYY-MM-DD。",
+  "project_name": "替换成你项目的真实名称",
+  "source": "课程项目（个人独立完成）",
+  "tasks": [
+    {
+      "title": "任务一：写清你真实做过的一件事",
+      "description": "这件事的交付物是什么",
+      "owner": "你或队友的真实名字",
+      "due_date": "2025-01-01",
+      "status": "DONE",
+      "priority": "HIGH",
+      "is_milestone": true,
+      "depends_on": null
+    },
+    {
+      "title": "任务二：写清你真实做过的一件事",
+      "description": "这件事的交付物是什么",
+      "owner": "你或队友的真实名字",
+      "due_date": "2025-01-08",
+      "status": "DONE",
+      "priority": "MEDIUM",
+      "is_milestone": false,
+      "depends_on": "任务一：写清你真实做过的一件事"
+    },
+    {
+      "title": "任务三：写清你真实做过的一件事",
+      "description": "这件事的交付物是什么",
+      "owner": "你或队友的真实名字",
+      "due_date": "2025-01-15",
+      "status": "IN_PROGRESS",
+      "priority": "MEDIUM",
+      "is_milestone": false,
+      "depends_on": "任务二：写清你真实做过的一件事"
+    }
+  ],
+  "risks": [
+    {
+      "title": "写一条真实遇到过的阻碍",
+      "description": "当时具体发生了什么",
+      "impact": "HIGH",
+      "owner": "这件事的责任人",
+      "mitigation": "你当时实际采取的措施",
+      "status": "CLOSED"
+    }
+  ]
+}

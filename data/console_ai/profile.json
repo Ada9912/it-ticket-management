@@ -1,0 +1,27 @@
+{
+  "rows": 500,
+  "categories": {
+    "Network": 68,
+    "Software": 231,
+    "Account": 71,
+    "Training": 12,
+    "Security": 42,
+    "Licensing": 2,
+    "Communication": 24,
+    "RemoteWork": 20,
+    "Hardware": 22,
+    "Infrastructure": 7,
+    "Performance": 1
+  },
+  "priorities": {
+    "Medium": 293,
+    "High": 199,
+    "Low": 4,
+    "Urgent": 4
+  },
+  "duplicate_subject_description": 0,
+  "sample_size": 50,
+  "source": "https://huggingface.co/datasets/Console-AI/IT-helpdesk-synthetic-tickets",
+  "license": "MIT (dataset metadata)",
+  "synthetic": true
+}

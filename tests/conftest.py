@@ -13,9 +13,15 @@ from app.db.models import Employee, Engineer, Ticket, TicketUpdate
 
 load_dotenv()
 
-TEST_DATABASE_URL = os.getenv("TEST_DATABASE_URL")
+TEST_DATABASE_URL = os.getenv("TEST_DATABASE_URL", "sqlite://")
 
-engine = create_engine(TEST_DATABASE_URL)
+from sqlalchemy.pool import StaticPool
+
+engine = create_engine(
+    TEST_DATABASE_URL,
+    **({"connect_args": {"check_same_thread": False}, "poolclass": StaticPool}
+       if TEST_DATABASE_URL == "sqlite://" else {})
+)
 
 TestingSessionLocal = sessionmaker(
     autocommit=False,
@@ -99,25 +105,26 @@ def setup_database():
 
     db.commit()
 
-    db.execute(text(
-        "SELECT setval(pg_get_serial_sequence('employees', 'id'), "
-        "(SELECT MAX(id) FROM employees))"
-    ))
+    if engine.dialect.name == "postgresql":
+        db.execute(text(
+            "SELECT setval(pg_get_serial_sequence('employees', 'id'), "
+            "(SELECT MAX(id) FROM employees))"
+        ))
 
-    db.execute(text(
-        "SELECT setval(pg_get_serial_sequence('engineers', 'id'), "
-        "(SELECT MAX(id) FROM engineers))"
-    ))
+        db.execute(text(
+            "SELECT setval(pg_get_serial_sequence('engineers', 'id'), "
+            "(SELECT MAX(id) FROM engineers))"
+        ))
 
-    db.execute(text(
-        "SELECT setval(pg_get_serial_sequence('tickets', 'id'), "
-        "(SELECT MAX(id) FROM tickets))"
-    ))
+        db.execute(text(
+            "SELECT setval(pg_get_serial_sequence('tickets', 'id'), "
+            "(SELECT MAX(id) FROM tickets))"
+        ))
 
-    db.execute(text(
-        "SELECT setval(pg_get_serial_sequence('ticket_updates', 'id'), "
-        "(SELECT MAX(id) FROM ticket_updates))"
-    ))
+        db.execute(text(
+            "SELECT setval(pg_get_serial_sequence('ticket_updates', 'id'), "
+            "(SELECT MAX(id) FROM ticket_updates))"
+        ))
 
     db.commit()
     db.close()

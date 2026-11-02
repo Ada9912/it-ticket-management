@@ -104,5 +104,7 @@ class AIFeedback(Base):
     id = Column(Integer, primary_key=True, index=True)
     issue_text = Column(String(2000), nullable=False)
     suggested_category = Column(String(50), nullable=False)
+    final_category = Column(String(50), nullable=True)
+    suggestion_source = Column(String(20), nullable=True)
     selected_action = Column(String(20), nullable=False)
     created_at = Column(DateTime, default=utc_now, nullable=False)

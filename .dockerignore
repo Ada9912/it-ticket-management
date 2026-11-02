@@ -5,3 +5,6 @@ __pycache__
 .coverage
 .env
 data/output
+*.db
+*.db-shm
+*.db-wal

@@ -1,0 +1,10 @@
+{
+  "total": 50,
+  "deepseek_returns": 0,
+  "rule_fallbacks": 0,
+  "endpoint_failures": 50,
+  "eligible_for_provisional_label_comparison": 48,
+  "provisional_matches": 0,
+  "warning": "Source-label mapping is unreviewed, NOT project ground truth or accuracy. Two Security cases excluded. No priority accuracy computed.",
+  "seconds_total_sum": 314.753
+}
